@@ -1,0 +1,21 @@
+{
+    "script-id": "add_and_split",
+    "script-comment": "Splits input into 2 outputs with sequentially higher values",
+    "input-memory": [
+        {
+            "id": "INP",
+            "byte-length": 1
+        }
+    ],
+    "external-memory": [],
+    "output-memory": [
+        {
+            "id": "OUT_1",
+            "byte-length": 1
+        },
+        {
+            "id": "OUT_2",
+            "byte-length": 1
+        }
+    ]
+}

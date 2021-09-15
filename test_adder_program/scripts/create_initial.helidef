@@ -1,0 +1,12 @@
+{
+    "script-id": "create_initial",
+    "script-comment": "Create initial memory",
+    "input-memory": [],
+    "external-memory": [],
+    "output-memory": [
+        {
+            "id": "OUT_1",
+            "byte-length": 1
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+Current design document for the address machine interpreter. Note the lack of anything indicating
+a stack machine. It is not in the design for the Helion interpreter.
+
+ALLOC <mem-id>,<mem-len>
+RELEA <mem-id>
+
+ACQUI <mem-id>
+LIBER <mem-id>
+
+PSHUP <mem-id>
+
+JPFOR <instr-num>
+JPBCK <instr-num>
+
+MOV <mem-id-src>,<mem-id-dest>,<mem-len>
+MOVTA <mem-id-src>,<mem-id-dest>,<mem-index>,<mem-len>
+MOVFA <mem-id-src>,<mem-index>,<mem-id-dest>,<mem-len>
+
+SET <mem-id>,<mem-val>,<mem-len>
+SETSL <mem-id>,<mem-index>,<mem-val>,<mem-len>
+
+ADD <mem-id>,<val>
+SUB <mem-id>,<val>
+
+MADD <mem-id>,<mem-val-id>
+MSUB <mem-id>,<mem-val-id>

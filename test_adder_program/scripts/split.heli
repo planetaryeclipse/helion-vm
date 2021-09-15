@@ -1,0 +1,12 @@
+% this program splits the one input into 2 output memory streams,
+% the intention of the program is simply for testing purposes
+
+% this is for the default program path
+ALLOC FOLLOW,0x01
+SET FOLLOW,0x00,0x01
+
+ALLOC OUT_1,0x01
+ALLOC OUT_2,0x01
+
+MOV INP,OUT_1,0x01
+MOV INP,OUT_2,0x01

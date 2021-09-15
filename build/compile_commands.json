@@ -1,0 +1,117 @@
+[
+{
+  "directory": "/home/samuel/Documents/helion-lang/build",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/prog_inter.dir/src/apps/prog_inter.cpp.o -c /home/samuel/Documents/helion-lang/src/apps/prog_inter.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/apps/prog_inter.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/instr_inter.dir/src/apps/instr_inter.cpp.o -c /home/samuel/Documents/helion-lang/src/apps/instr_inter.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/apps/instr_inter.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11 -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_test_main.dir/test_main.cpp.o -c /home/samuel/Documents/helion-lang/src/test_main.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/test_main.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/interpreter/script/invokable.cpp.o -c /home/samuel/Documents/helion-lang/src/interpreter/script/invokable.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/interpreter/script/invokable.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/interpreter/script/linker.cpp.o -c /home/samuel/Documents/helion-lang/src/interpreter/script/linker.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/interpreter/script/linker.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/interpreter/script/script_parser.cpp.o -c /home/samuel/Documents/helion-lang/src/interpreter/script/script_parser.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/interpreter/script/script_parser.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/interpreter/script/script.cpp.o -c /home/samuel/Documents/helion-lang/src/interpreter/script/script.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/interpreter/script/script.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/interpreter/instr_func.cpp.o -c /home/samuel/Documents/helion-lang/src/interpreter/instr_func.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/interpreter/instr_func.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/interpreter/instr_type.cpp.o -c /home/samuel/Documents/helion-lang/src/interpreter/instr_type.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/interpreter/instr_type.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/interpreter/instr_parser.cpp.o -c /home/samuel/Documents/helion-lang/src/interpreter/instr_parser.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/interpreter/instr_parser.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/interpreter/instr_runner.cpp.o -c /home/samuel/Documents/helion-lang/src/interpreter/instr_runner.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/interpreter/instr_runner.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/memory/mem_mapping.cpp.o -c /home/samuel/Documents/helion-lang/src/memory/mem_mapping.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/memory/mem_mapping.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/memory/mem_types.cpp.o -c /home/samuel/Documents/helion-lang/src/memory/mem_types.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/memory/mem_types.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/util/env_util.cpp.o -c /home/samuel/Documents/helion-lang/src/util/env_util.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/util/env_util.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/util/mem_util.cpp.o -c /home/samuel/Documents/helion-lang/src/util/mem_util.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/util/mem_util.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/util/string_util.cpp.o -c /home/samuel/Documents/helion-lang/src/util/string_util.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/util/string_util.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/src",
+  "command": "/usr/bin/g++-11  -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/helion_src.dir/util/value_util.cpp.o -c /home/samuel/Documents/helion-lang/src/util/value_util.cpp",
+  "file": "/home/samuel/Documents/helion-lang/src/util/value_util.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/test",
+  "command": "/usr/bin/g++-11 -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/catch_testing.dir/interpreter/test_instr_parser.cpp.o -c /home/samuel/Documents/helion-lang/test/interpreter/test_instr_parser.cpp",
+  "file": "/home/samuel/Documents/helion-lang/test/interpreter/test_instr_parser.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/test",
+  "command": "/usr/bin/g++-11 -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/catch_testing.dir/memory/test_mem_types.cpp.o -c /home/samuel/Documents/helion-lang/test/memory/test_mem_types.cpp",
+  "file": "/home/samuel/Documents/helion-lang/test/memory/test_mem_types.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/test",
+  "command": "/usr/bin/g++-11 -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/catch_testing.dir/memory/test_mem_util.cpp.o -c /home/samuel/Documents/helion-lang/test/memory/test_mem_util.cpp",
+  "file": "/home/samuel/Documents/helion-lang/test/memory/test_mem_util.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/test",
+  "command": "/usr/bin/g++-11 -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/catch_testing.dir/memory/test_mem_mapping.cpp.o -c /home/samuel/Documents/helion-lang/test/memory/test_mem_mapping.cpp",
+  "file": "/home/samuel/Documents/helion-lang/test/memory/test_mem_mapping.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/test",
+  "command": "/usr/bin/g++-11 -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/catch_testing.dir/util/test_string_util.cpp.o -c /home/samuel/Documents/helion-lang/test/util/test_string_util.cpp",
+  "file": "/home/samuel/Documents/helion-lang/test/util/test_string_util.cpp"
+},
+{
+  "directory": "/home/samuel/Documents/helion-lang/build/test",
+  "command": "/usr/bin/g++-11 -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/home/samuel/Documents/helion-lang/include -g -std=gnu++2a -o CMakeFiles/catch_testing.dir/util/test_value_util.cpp.o -c /home/samuel/Documents/helion-lang/test/util/test_value_util.cpp",
+  "file": "/home/samuel/Documents/helion-lang/test/util/test_value_util.cpp"
+}
+]

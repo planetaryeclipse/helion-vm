@@ -1,0 +1,4 @@
+% this program simply creates a sample value to pass into the
+% following scripts for the sample interpreter
+ALLOC OUT_1,0x01
+SET OUT_1,0x00,0x01

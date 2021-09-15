@@ -1,0 +1,21 @@
+{
+    "script-id" : "add_inputs",
+    "script-comment" : "Adds 2 inputs together",
+    "input-memory": [
+        {
+            "id" : "INP_1",
+            "byte-length" : 1
+        },
+        {
+            "id" : "INP_2",
+            "byte-length" : 1
+        }
+    ],
+    "external-memory" : [],
+    "output-memory" : [
+        {
+            "id" : "OUT_1",
+            "byte-length" : 1
+        }
+    ]
+}

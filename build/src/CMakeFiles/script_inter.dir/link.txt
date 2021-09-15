@@ -1,0 +1,1 @@
+/usr/bin/g++-11 -g CMakeFiles/script_inter.dir/apps/script_inter.cpp.o -o script_inter  libhelion_src.a 

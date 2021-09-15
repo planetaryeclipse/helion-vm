@@ -1,0 +1,4 @@
+% invalid leading space in front of comment
+INSTR_1 VAL1
+ %INSTR_2
+INSTR_3 VAL1

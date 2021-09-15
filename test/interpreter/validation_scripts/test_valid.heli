@@ -1,0 +1,7 @@
+INSTR_1 VAL1,VAL2,VAL3
+INSTR_2 VAL1,VAL2
+% test comment before valid empty line
+
+% test comment after valid empty line
+INSTR_3 VAL1
+INSTR_4

@@ -1,0 +1,43 @@
+[
+    {
+        "path": 0,
+        "linked_scripts": [
+            {
+                "script": 5,
+                "links": [
+                    {
+                        "output_id": "output_1",
+                        "input_id": "input_1"
+                    },
+                    {
+                        "output_id": "output_2",
+                        "input_id": "input_2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "path": 1,
+        "linked_scripts": [
+            {
+                "script": 5,
+                "links": [
+                    {
+                        "output_id": "output_1",
+                        "input_id": "input_1"
+                    }
+                ]
+            },
+            {
+                "script": 6,
+                "links": [
+                    {
+                        "output_id": "output_2",
+                        "input_id": "input_1"
+                    }
+                ]
+            }
+        ]
+    }
+]

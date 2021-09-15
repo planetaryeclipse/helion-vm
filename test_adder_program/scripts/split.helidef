@@ -1,0 +1,21 @@
+{
+    "script-id": "split",
+    "script-comment": "Splits input into 2 outputs",
+    "input-memory": [
+        {
+            "id": "INP",
+            "byte-length": 1
+        }
+    ],
+    "external-memory": [],
+    "output-memory": [
+        {
+            "id": "OUT_1",
+            "byte-length": 1
+        },
+        {
+            "id": "OUT_2",
+            "byte-length": 1
+        }
+    ]
+}

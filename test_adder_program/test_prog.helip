@@ -1,0 +1,48 @@
+{
+    "scripts": [
+        {
+            "script-order": 0,
+            "script-id": "create_initial"
+        },
+        {
+            "script-order": 1,
+            "script-id": "split"
+        },
+        {
+            "script-order": 2,
+            "script-id": "add_and_split"
+        }
+    ],
+    "linkers": [
+        {
+            "finished-script-order": 0,
+            "paths": [
+                {
+                    "path-id": 0,
+                    "links": [
+                        {
+                            "finished-mem-id": "OUT_1",
+                            "following-script-order": 1,
+                            "following-mem-id": "INP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "finished-script-order": 1,
+            "paths": [
+                {
+                    "path-id": 0,
+                    "links": [
+                        {
+                            "finished-mem-id": "OUT_1",
+                            "following-script-order": 2,
+                            "following-mem-id": "INP"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

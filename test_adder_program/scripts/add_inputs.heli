@@ -1,0 +1,21 @@
+% takes in 2 8-bit values and adds them together to produce a single
+% output 8-bit value
+
+% creates temporary 8-byte values to allow addition
+ALLOC INP_1_REG,0x08
+ALLOC INP_2_REG,0x08
+
+% prepares input values for big-endian addition
+MOVTA INP_1,INP_1_REG,0x07,0x01
+MOVTA INP_2,INP_2_REG,0x07,0x01
+
+MADD INP_1_REG,INP_2_REG
+
+ALLOC OUT_1,0x01
+MOVFA INP_1_REG,0x07,OUT_1,0x01
+
+RELEA INP_1_REG
+RELEA INP_2_REG
+
+RELEA INP_1
+RELEA INP_2
